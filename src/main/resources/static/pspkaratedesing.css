@@ -1,0 +1,877 @@
+@media screen{
+html {
+  height: auto;
+  width: 100%;
+  font-family: "poppins";
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+/*header.haut*/
+.container-haut {
+  background-image: url("src/images/bandeau.header.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+.item-haut {
+  text-align: left;
+  align-items: center;
+}
+.item-haut2 {
+  width: 12%;
+  height: auto;
+  text-align: center;
+  margin-right: 5%;
+}
+.button {
+  width: 160px;
+  height: auto;
+  padding: 10px;
+  background-color: #c02b2a;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 2rem;
+  display: inline-block;
+}
+form {
+  width: min-content;
+}
+.iden {
+  position: center;
+  width: 300px;
+  height: auto;
+  background-color: #ffffff;
+  border-color: #1b313e;
+  color: #1b313e;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 2rem;
+  align-items: center;
+}
+.mdpo {
+  color: #c02b2a;
+  font-size: small;
+  text-decoration: none;
+  position: right;
+}
+.logo {
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 20%;
+  height: auto;
+}
+.header {
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+/*Navbar*/
+.liste-nav {
+  padding: 0%;
+  margin: 0%;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  background: #1b313e;
+  font-family: "poppins";
+}
+ul {
+  width: 100%;
+  
+  text-align: left;
+}
+nav ul li {
+  float: left;
+  position: relative;
+  line-height: 70px;
+  margin: 0 5%;
+}
+nav li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 19;
+}
+.submenu li:hover a {
+  color: #c02b2a;
+  font-weight: bold;
+}
+.submenu {
+  display: none;
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+nav li:hover {
+  font-weight: bold;
+}
+nav li:hover .submenu {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 500;
+}
+.submenu li {
+  border-bottom: 1px solid #1b313e;
+}
+.submenu li a {
+  padding: 10px 30px;
+  font-size: 13px;
+  color: #ffffff;
+  width: 270px;
+}
+
+/*BODY*/
+/*Titre Page*/
+.titre {
+  color: #c02b2a;
+  padding-left: 10%;
+  font-weight: lighter;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*NOTRECLUB*/
+/*PSP-Karaté*/
+.titre-acceuil {
+  background-image: url("src/images/acceuil.png");
+  background-size: cover;
+}
+.container-news {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-evenly;
+  background-color: #8c969b;
+}
+.item-photo-news {
+  width: 35%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.item-text-news {
+  width: 55%;
+  text-align: justify;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+.container-stage-affiche {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: stretch;
+}
+.container-affiche {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 20px rgba(0,0,0,5);
+}
+.item-affiche-stage {
+  width: 60%;
+}
+.item-affiche1 {
+  width: 60%;
+}
+.item-affiche2 {
+  width: 35%;
+}
+.item-overflow {
+  width: 35%;
+}
+.item-overflow {
+  margin-left: 4%;
+  width: 400px;
+  height: 600px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  overflow: scroll;
+  overflow-x: auto;
+}
+/*Le Club*/
+.titre-club {
+  background-image: url("src/images/le\ club.png");
+  background-size: cover;
+}
+.container-horaire {
+  background-image: url("src/images/2_LeClub.NotreClub.jpg");
+}
+.text-horaire {
+  text-align: center;
+  color: #ffffff;
+  font-size: small;
+}
+.container-presentation {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-evenly;
+}
+.item-presentation-right {
+  width: 40%;
+  text-align: justify;
+}
+.item-presentation-left {
+  width: 50%;
+}
+.container-membre {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #8c969b;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.item-bureau1 {
+  margin-top: 2%;
+  width: 10%;
+  justify-self: center;
+}
+.item-bureau2 {
+  width: 40%;
+  font-size: small;
+  color: #ffffff;
+}
+.container-presentation2 {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.item-bureau3 {
+  width: 45%;
+}
+.item-bureau4 {
+  width: 45%;
+}
+
+/*Le Dojo*/
+.titre-dojo {
+  background-image: url("src/images/le\ club.png");
+  background-size: cover;
+}
+.dojo-part3-img {
+  width: auto;
+  height: auto;
+  margin-bottom: 0%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.compet {
+  margin-bottom: 0%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container-dojo {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.item-dojo1 {
+  width: 40%;
+  font-size: small;
+}
+.item-dojo2 {
+  width: 60%;
+}
+.container-ceinture-noire {
+  background-color: #ebbb63;
+  margin-bottom: 0%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.item-ceinture {
+  margin-left: 5%;
+  width: 40%;
+  font-size: small;
+}
+.item-signe {
+  width: 50%;
+}
+
+/*Souvenir*/
+.titre-souvenir {
+  background-image: url("src/images/le\ club.png");
+  background-size: cover;
+}
+
+.container-slider {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+.slides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  color: #aaa;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 16px;
+  border-radius: 0 3px 3px 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 10px 2px 0 2px;
+  display: inline-block;
+  background: #ddd;
+  transition: all 0.3s;
+}
+.active,
+.dot:hover {
+  background: #1b313e;
+}
+
+
+.container-stage {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-evenly;
+}
+.item-stage1 {
+  text-align: justify;
+}
+.item-stage2 {
+  justify-content: center;
+}
+.container-voyage1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container-voyage2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.item-voyage1 {
+  height: 150px;
+  width: 280px;
+  background: #1b313e;
+  margin-left: 0%;
+}
+.item-jap1 {
+  width: 50%;
+  height: 150px;
+}
+.item-jap2 {
+  width: 40%;
+}
+.voyageAn {
+  color: #ffffff;
+}
+.btn {
+  background-color: #ffffff;
+  border: none;
+  color: #1b313e;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 2rem;
+}
+.btn1 {
+  width: 400px;
+  background-color: #1b313e;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 2rem;
+}
+li {
+  list-style: none;
+}
+.titre-souvenir {
+  margin-left: 10%;
+}
+
+/*NOS ACTIVITES*/
+/*Le Kataté SHOTOKAN*/
+.titre-shotokan {
+  background-image: url("src/images/activité.png");
+  background-size: cover;
+}
+.container-shotokan {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.item-shotokan-a {
+  width: 50%;
+  text-align: justify;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.item-shotokan-b {
+  width: 30%;
+  justify-content: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+/*Le Taiso*/
+.titre-taiso {
+  background-image: url("src/images/activité.png");
+  background-size: cover;
+}
+.container-taiso {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.item-taiso-a {
+  width: 50%;
+  text-align: justify;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.item-taiso-b {
+  width: 30%;
+  justify-content: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+/*Le Karaté WADO-RYU*/
+.titre-wadoryu {
+  background-image: url("src/images/activité.png");
+  background-size: cover;
+}
+.container-wadoryu {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.item-wado-a {
+  width: 50%;
+  text-align: justify;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.item-wado-b {
+  width: 30%;
+  justify-content: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+/*LES MAITRES FONDATEURS*/
+.bushido {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*Maitre FUNAKOSHI*/
+.titre-funakoshi {
+  background-image: url("src/images/fondateur.png");
+  background-size: cover;
+}
+.container-funakoshi {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.item-funakoshi-a {
+  width: 30%;
+  text-align: justify;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.item-funakoshi-b {
+  background-image: url("src/images/4-Fondateur/Fondateur.Shotokan.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60%;
+  justify-content: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  display: block;
+  text-align: justify;
+}
+/*Maitre HIRONORI*/
+.titre-hironori {
+  background-image: url("src/images/fondateur.png");
+  background-size: cover;
+}
+.container-hironori {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.item-hironori-a {
+  width: 30%;
+  text-align: justify;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.item-hironori-b {
+  background-image: url("src/images/4-Fondateur/Fondateur.wadoRyu.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60%;
+  justify-content: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  display: block;
+  text-align: justify;
+}
+
+/*CONTACT*/
+.titre-contact {
+  background-image: url("src/images/contact.png");
+  background-size: cover;
+}
+.contact{
+   margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container-formulaire {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-evenly;
+}
+.item-left-form {
+  width: 50%;
+}
+.item-right-form {
+  width: 50%;
+}
+input {
+  position: center;
+  width: 300px;
+  background-color: #ffffff;
+  border-color: #1b313e;
+  color: #1b313e;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 2rem;
+  align-items: center;
+}
+textarea {
+  position: center;
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  border-color: #1b313e;
+  color: #1b313e;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 2rem;
+  align-items: center;
+}
+.bouton-form {
+  text-align: right;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.titreact {
+  margin-left: 10%;
+}
+/*STATUT*/
+.titre-statut {
+  background-image: url("src/images/statut.png");
+  background-size: cover;
+}
+.texte-adnimistratif-reglement {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: small;
+  display: block;
+  text-align: justify;
+}
+
+/*ADHERANT*/
+
+/*ADMINISTRATEUR*/
+
+/*CONNECTION*/
+.titre-adhérent {
+  background-image: url("src/images/adherent.png");
+  background-size: cover;
+}
+
+h1 {
+  color: #c02b2a;
+}
+h2 {
+  color: #c02b2a;
+}
+.container-adherent {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.item-titre {
+  width: 50%;
+  text-align: justify;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.item-identification {
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  align-items: center;
+}
+.titreact {
+  margin-bottom: 0%;
+}
+.container-acceuil-activité {
+  display: flex;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-evenly;
+}
+.item-acceuil-taiso {
+  width: 30%;
+}
+.item-acceuil-sotokan {
+  width: 30%;
+}
+.item-acceuil-wadoryu {
+  width: 30%;
+}
+/*MENTION*/
+.titre-mention {
+  background-image: url("src/images/mention.png");
+  background-size: cover;
+}
+.texte-adnimistratif-mention {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: small;
+  display: block;
+  text-align: justify;
+}
+.container-mention {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*BOUTIQUE*/
+.titre-boutique {
+  background-image: url("src/images/boutique.png");
+  background-size: cover;
+}
+.galerie-boutique {
+  width: 80%;
+  max-width: 1200px;
+  margin: 70px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+}
+.item-boutique {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+/*Article*/
+.encart {
+  background-color: #dadbde;
+  background-size: 60%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+/*overflow*/
+.box {
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  overflow: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  background-image: url("src/images/bandeau.footer.jpg");
+  width: 100%;
+  background-size: cover;
+}
+.container {
+  margin-right: 4%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.phrasefooter {
+  font-weight: lighter;
+  font-size: small;
+}
+.item-footer {
+  color: #ffffff;
+  justify-content: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.item-footer:nth-child(2) {
+  width: 60%;
+  text-align: center;
+}
+.item-footer:nth-child(1) {
+  width: 20%;
+  font-weight: lighter;
+  text-align: bottom;
+}
+.item-footer:nth-child(3) {
+  width: 15%;
+  text-align: right;
+}
+.lien-footer {
+  color: #ffffff;
+  font-size: small;
+  text-decoration: none;
+}
+.tiret-lien {
+  display: inline-block;
+}
+.lien-utile {
+  text-align: right;
+}
+span::after {
+  content: "";
+  display: block;
+  width: 0px;
+  margin: 0.5px auto 0 auto;
+  height: 1px;
+  border-radius: 2px;
+  background: #aaa;
+  transition: width 0.2s ease-out;
+}
+span:hover::after {
+  width: 100%;
+}
+}

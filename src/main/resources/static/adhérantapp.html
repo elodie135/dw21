@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css" />                 
+    <link rel="stylesheet" href="pspkaratéappdesing.css" />
+    <script></script>
+    <title>Statut PSP-karaté</title>
+</head>
+
+<header>
+</header>
+
+<body>
+   <div class="container-qui">
+    <div class="item-qui1">
+      <img class="key" src="src/images/identifcation.png" />
+    </div>
+    <div class="item-qui2">
+      <div class="actualité"></div>
+      <div class="licence"><center>N°LICENCE / 0000000000</center></div>
+      <div class="nom">NOM : Lorem</div>
+      <div class="nom">PRENOM : Lorem</div>
+      <br>
+      <div class="nom">CATEGORIE : Lorem</div>
+      <br>
+      <div class="nom">NIVEAU : Blanche</div>
+    </div>
+         <div class="container-news"></div>
+    
+    <div class="cont-btns">
+        <button class="btn-inscription">S'inscrire</button>
+        <button class="btn-connection">Se connecter</button>
+        <button class="btn-deco">Se déconnecter</button>
+    </div>
+    <h1>Bienvenue, inscrivez-vous ou connectez-vous.</h1>
+    <p class="info">Contenu public.</p>
+
+    <form class="form-inscription">
+
+        <h2>Inscription</h2>
+        <label for="emailInscription">Entrez un email</label>
+        <input type="email" class="email-inscription" id="emailInscription">
+
+        <label for="mdpInscription">Entrez un mdp</label>
+        <input type="password" class="mdp-inscription" id="mdpInscription">
+
+        <button type="submit">S'inscrire</button>
+    </form>
+    
+    <form class="form-connection">
+
+        <h2>Connection</h2>
+        <label for="emailConnection">Entrez un email</label>
+        <input type="email" class="email-connection" id="emailConnection">
+
+        <label for="mdpConnection">Entrez un mdp</label>
+        <input type="password" class="mdp-connection" id="mdpConnection">
+
+        <button type="submit">Se connecter</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCyczvFxXW7QLEsTsrpCJy-oEaaGyOnwHg",
+        authDomain: "authentification-js.firebaseapp.com",
+        databaseURL: "https://authentification-js.firebaseio.com",
+        projectId: "authentification-js",
+        storageBucket: "authentification-js.appspot.com",
+        messagingSenderId: "589220853587",
+        appId: "1:589220853587:web:4685e4f79d20c29d25d3a6"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+
+    console.log(auth);
+</script>
+    <script src="psp-karate-app.js"></script>
+</body>
+
+<footer>
+ 
+</footer>
+
+</html>
